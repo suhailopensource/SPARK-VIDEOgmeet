@@ -5,8 +5,11 @@ import { ReactNode } from "react";
 import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "YOOM",
-  description: "A workspace for your team, powered by Stream Chat and Clerk.",
+  title: "bOOM",
+  description: "video calling app",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
 };
 
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
