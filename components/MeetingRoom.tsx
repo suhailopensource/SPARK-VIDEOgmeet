@@ -37,12 +37,12 @@ const MeetingRoom = () => {
 
   const CallLayout = () => {
     switch (layout) {
-      case "grid":
-        return <PaginatedGridLayout />;
+      case "speaker-left":
+        return <SpeakerLayout participantsBarPosition="right" />;
       case "speaker-right":
         return <SpeakerLayout participantsBarPosition="left" />;
       default:
-        return <SpeakerLayout participantsBarPosition="right" />;
+        return <PaginatedGridLayout />;
     }
   };
 
