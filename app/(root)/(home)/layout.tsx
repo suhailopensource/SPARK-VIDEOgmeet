@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "bOOM",
+  title: "SPARK",
   description: "video calling app",
   icons: {
     icon: "/icons/logo.svg",
